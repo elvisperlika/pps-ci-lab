@@ -13,4 +13,5 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: 24
-      - run: ./gradlew clean build
+      - name: Build with Gradle
+        run: ./gradlew clean build
